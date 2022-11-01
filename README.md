@@ -1,21 +1,4 @@
-# Poverty Line Front end
-
----
-
-### Authors :
-
-1. Earnest Achayo
-2. Snaida Kabalika
-3. Alex Alemba
-4. Bryan Bosire
-5. Tim Mailu
-6. Joseph Maina
-
----
-
-## Project Description
-
-This is the front End for the Poverty-line website. Poverty~Line helps growing businesses find and work with top-notch talent and agencies. Users can sign up, post projects and review proposals to find the right independent contractor or agency for you
+# Poverty Line
 
 ---
 
@@ -25,26 +8,44 @@ This is the front End for the Poverty-line website. Poverty~Line helps growing b
 
 ---
 
-## SetUp Instruction
+## Contributors
 
-### Requirements
+| Name | Operation | LinkedIn | Email |
+|:----:|:--:|:--------:|:-----:|
+|Alemba Alex | Frontend and UI/UX | http://www.linkedin.com/in/alex-kiragu-754690219 | alembakiragu@gmail.com |
+| Earnest Achayo | write your operation | LinkedIn profile link | Your Email |
+| Snaida Kabalika | write your operation | LinkedIn profile link | Your Email |
+| Bryan Bosire | write your operation | LinkedIn profile link | Your Email |
+| Tim Mailu | write your operation | LinkedIn profile link | Your Email |
+| Joseph Maina | write your operation | LinkedIn profile link | Your Email |
 
-- Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
+---
 
-### Getting Files
+## Table of Content
 
-- Fork the repo [LINK.](https://github.com/AchayoEarnest?tab=repositories)
+-[Description](#description)
 
-* Create a new branch in your terminal (git checkout -b improve-feature)
-* Install the prerequisites
-* Make appropriate changes in file(s)
-* Run the server to see the changes
-* Add the changes and commit them (git commit -am "Improve App")
-* Push to the branch (git push origin improve-app)
-* Create a Pull request
-* Remember to also for the server from [LINK.](https://github.com/AchayoEarnest/phase-3-personal-blog-react-sinatra-project-api) and run it under its README.md instructions
+-[Features](#features)
 
-- Open the folder location on terminal and use the following command to run app:
+-[Requirements](#requirements)
+
+-[Installation process](#installation-process)
+
+-[Live Link](#live-link)
+
+-[Technologies Used](#technologies-used)
+
+-[Contact Information](#contact-information)
+
+-[License](#license)
+
+---
+
+### Description
+
+This is the front End for the Poverty-line website. Poverty~Line helps growing businesses find and work with top-notch talent and agencies. Users can sign up, post projects and review proposals to find the right independent contractor or agency for you
+
+---
 
 ### Features
 
@@ -54,28 +55,52 @@ This is the front End for the Poverty-line website. Poverty~Line helps growing b
 - Existing users in the database can log in and stay persisted in the system untill the logs out.
 - Users can perform CRUD operations(create, read, update, delete) their data
 
-## How To Run It
+---
 
-> $ type 'rails start' on your text editor commandline and hit enter to start rails server.
-> $ type 'npm start --prefix client' on your text editor commandline and hit enter to start react server.
+### Requirements
+
+*Access to a computer or any other garget
+
+*Access to the internet
 
 ---
 
-## Live Link
+### Installation Process
 
-Or you can access the web application directly via this [LINK.]('https://github.com/joseph3559/poverty-line')
+****
+
+*Clone the repo: 
+
+*Unzip the downloaded files in a folder of choice.
+
+*Open the index files from the zipped file with any browser.
+****
+
+[Go Back to the top](#poverty-line)
 
 ---
 
-## Technologies Used
+### Live Link
+
+-Click this link to view the application: https://github.com/joseph3559/poverty-line
+
+---
+
+### Technologies Used
 
 1. React
 2. JSX
 3. Tailwind
+4. Ruby on Rails
+5. Material Ui
+6. Figma
+7. CSS
+8. Trello
+9. Redux
 
 ---
 
-## Contact Information
+### Contact Information
 
 - Email : povertylinedev@gmail.com
 
@@ -85,3 +110,6 @@ Or you can access the web application directly via this [LINK.]('https://github.
 
 MIT License
 Copyright (c) 2022 Poverty Line
+
+[Go Back to the top](#poverty-line)
+
