@@ -14,6 +14,8 @@ import Createjob from './Links/Createjob'
 import Navbar from './components/Navbar'
 import Admin from './Links/Admin';
 
+import JobCard from './components/job/JobCard';
+
 
 
 function App() {
@@ -36,7 +38,12 @@ function App() {
         <Route path="/admin" element={<Admin/>} />
         {/* Hey Earnest */}
       </Routes>
+
+
+      <JobCard/>
     </>
+
+    
   );
 }
 
