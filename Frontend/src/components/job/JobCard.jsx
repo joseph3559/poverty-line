@@ -48,9 +48,9 @@ const JobCard = () => {
 
   return (
     <>
-      {
+    <div className="booka">
+     {
       jobs.map((job) => (
-        
         <Box p={2} className={classes.wrapper}>
           <Grid container alignItems='center'>
           <Grid item xs>
@@ -74,8 +74,9 @@ const JobCard = () => {
           </Grid>
           </Grid>
           </Box>    
-        ))}
-    </>    
+        ))} 
+      </div>
+    </> 
   )
 }
 

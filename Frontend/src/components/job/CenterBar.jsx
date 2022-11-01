@@ -1,7 +1,7 @@
 import React from 'react'
 import Search from './SearchBar'
 import BookData from './Data.json'
-// import JobCard from './JobCard'
+import JobCard from './JobCard'
 
 
 const CenterBar = () => {
@@ -9,7 +9,7 @@ const CenterBar = () => {
     <div className='centerbar'>
       <Search placeholder="Enter book name ..." data={BookData}/>
   
-      {/* <JobCard/> */}
+      <JobCard/>
     </div>
     
     

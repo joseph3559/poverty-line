@@ -1,4 +1,6 @@
 import React from 'react'
+import Subscribe from '../components/Subscribe'
+// import Footer from '../components/Footer'
 import Header from '../components/job/Header'
 import LeftBar from '../components/job/LeftBar'
 import RightBar from '../components/job/RightBar'
@@ -15,6 +17,8 @@ const Jobs = () => {
               <RightBar/>
           </div>
       </div>
+      <Subscribe/>
+      {/* <Footer/> */}
     </div>
   )
 }

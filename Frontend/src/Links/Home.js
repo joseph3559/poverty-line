@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Subscribe from "../components/Subscribe";
 import Footer from "../components/Footer";

@@ -13,6 +13,11 @@
   }
 }
 
+.booka{
+  background-color: blue;
+  height: 50px;
+}
+
  .home{
   background-color: rgb(169, 169, 169, 0.2);
   height: auto;
