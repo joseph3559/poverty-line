@@ -48,33 +48,34 @@ const JobCard = () => {
 
   return (
     <>
+      <div style = {{backgroundColor: ""}}>
       {
-      jobs.map((job) => (
-        
-        <Box p={2} className={classes.wrapper}>
-          <Grid container alignItems='center'>
-          <Grid item xs>
-              <h5 class="text-2xl">{job.job_title}</h5>
-            <p class="text-sm" className={ classes.companyName }>{job.company_name}</p>
-          </Grid>
-          <Grid item container xs>
-            {skills.map((skill) =>( 
-              <Grid key={ skill } className={ classes.skills } item>{job.required_skills }</Grid>
-            ))}
-          </Grid>
-          <Grid item container direction="column" alignItems="flex-end" xs>
-              <Grid item>
-                <p variant="caption" class="text-sm">Before 12-12-2022 { job.deadline }| { job.job_type}</p>
-              </Grid>
-              <Grid item>
-                <Box mt={2}>
-                  <Button variant="outlined" class="normal-case text-s border-4 border-black-40/100 text-black">More Details</Button>
-                </Box>
-              </Grid>
-          </Grid>
-          </Grid>
-          </Box>    
-        ))}
+            jobs.map((job) => (        
+              <Box p={2} className={classes.wrapper}>
+                <Grid container alignItems='center'>
+                <Grid item xs>
+                    <h5 class="text-2xl">{job.job_title}</h5>
+                  <p class="text-sm" className={ classes.companyName }>{job.company_name}</p>
+                </Grid>
+                <Grid item container xs>
+                  {skills.map((skill) =>( 
+                    <Grid key={ skill } className={ classes.skills } item>{job.required_skills }</Grid>
+                  ))}
+                </Grid>
+                <Grid item container direction="column" alignItems="flex-end" xs>
+                    <Grid item>
+                      <p variant="caption" class="text-sm">Before 12-12-2022 { job.deadline }| { job.job_type}</p>
+                    </Grid>
+                    <Grid item>
+                      <Box mt={2}>
+                        <Button variant="outlined" class="normal-case text-s border-4 border-black-40/100 text-black">More Details</Button>
+                      </Box>
+                    </Grid>
+                </Grid>
+                </Grid>
+                </Box>    
+            )) }
+        </div>
     </>    
   )
 }

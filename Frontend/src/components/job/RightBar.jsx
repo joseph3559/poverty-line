@@ -4,14 +4,14 @@ import {Link} from 'react-router-dom'
 const RightBar = () => {
   return (
     <div className='rightbar'>
-      <div className='companyicon'>
-        <img src='https://simg.nicepng.com/png/small/178-1780776_googles-new-dataset-search-aims-to-assist-researchers.png' alt="Google" />
+      <div className='companyicon' style={{marginTop: "30px"}}>
+        <img src="https://static.thenounproject.com/png/2734299-200.png" />
       </div>
       <div className='jobtitle'>Frontend Developer</div>
-      <div className='companyname'>Google, San francisco</div>
+      <div className='companyname'>Safaricom Limited</div>
       <div className="aboutjob" class='leading-loose'>
         <h4 class='ml-5 font-bold'>Description</h4>
-        <p class='ml-10'>Google is a cloud-based set of tools and services that makes it easy to get work done. It’s built for teams of all sizes, and has a simple, beautiful design that’s easy to use and works great on any device.</p>
+        <p class='ml-10'>If you are a fresher graduate and looking for an entry level position take a look at our open jobs and apply.</p>
       </div>
       <div className="qualifications" class='mb-10 leading-loose'> 
       <h4 class='ml-5 font-bold'>Minimum Qualifications;</h4>

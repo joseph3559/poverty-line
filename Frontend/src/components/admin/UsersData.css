@@ -1,0 +1,26 @@
+.read_container {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2% 5% 2% 5%;
+}
+
+.inner_container {
+    display: flex;
+}
+
+.title_text {
+    padding-top: 100px;
+    margin-left: 5%;
+}
+
+.btn-delete-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-update-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

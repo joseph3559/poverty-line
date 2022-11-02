@@ -1,7 +1,7 @@
 import axios from 'axios';
-import { json } from 'react-router-dom';
+// import { json } from 'react-router-dom';
 
-axios.defaults.baseURL = 'http://localhost:5000';
+axios.defaults.baseURL = 'https://powerful-dusk-77185.herokuapp.com';
 
 try {
     axios.defaults.headers.common = {

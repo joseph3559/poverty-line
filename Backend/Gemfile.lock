@@ -168,6 +168,7 @@ DEPENDENCIES
   debug
   faker
   jwt
+  minitest (~> 5.14)
   pg (~> 1.1)
   puma (~> 5.0)
   rack-cors

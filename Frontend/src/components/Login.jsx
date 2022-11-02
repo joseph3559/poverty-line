@@ -42,7 +42,7 @@ export default function Login() {
     <>
       {
       authenticated ? (
-          <Navigate to="/userdashboard" />          
+          <Navigate to="/user" />          
         ) : (            
         <div className="flex flex-row items-center min-h-screen pt-6 sm:justify-center sm:pt-0 bg-gray-50">
           
