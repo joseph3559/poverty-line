@@ -3,7 +3,6 @@ import axios from '../../api/axios'
 import { Navigate } from "react-router-dom";
 import Prof from '../../assets/profile.png'
 
-
 const ProfileCreation = () => {
   // const [errors, setErrors] = useState("");
   const [authenticated, setAuthenticated] = useState(false);
@@ -21,11 +20,15 @@ const ProfileCreation = () => {
     county: "",
     estate: "",
     career_summary: "",
-    experience_date: "",
+    experience_start_date: "",
+    experience_end_date: "",
     experience: "",
-    education_date: "",
+    education_start_date: "",
+    education_end_date: "",
     education: "",
     skills_and_hobbies: "",
+    languages: "",
+    image: "",
   });
 
   //hangle change event
@@ -255,7 +258,7 @@ const ProfileCreation = () => {
                   id="grid-password"
                   type="date"
                   name="experience_date"
-                  value={formData?.experience_date}
+                  value={formData?.experience_start_date}
                     onChange={handleChange}
                 />
           </div>
@@ -268,7 +271,7 @@ const ProfileCreation = () => {
                   id="grid-password"
                   type="date"
                   name="experience_date"
-                  value={formData?.experience_date}
+                  value={formData?.experience_end_date}
                     onChange={handleChange}
                 />
           </div>
@@ -296,7 +299,7 @@ const ProfileCreation = () => {
                   id="grid-password"
                   type="date"
                   name="education_date"
-                  value={formData?.education_date}
+                  value={formData?.education_start_date}
                     onChange={handleChange}
                 />
           </div>
@@ -309,7 +312,7 @@ const ProfileCreation = () => {
                   id="grid-password"
                   type="date"
                   name="education_date"
-                  value={formData?.education_date}
+                  value={formData?.education_end_date}
                     onChange={handleChange}
                 />
           </div>

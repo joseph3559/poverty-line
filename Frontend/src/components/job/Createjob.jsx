@@ -75,7 +75,8 @@ const Createjob = () => {
                 type="text"
                 name="job_title"
                 value={formData?.job_title}
-                onChange={handleChange}
+                      onChange={ handleChange }
+                      required
               />
                
             </div>
@@ -86,7 +87,8 @@ const Createjob = () => {
                 type="text"
                 name="company_name"
                 value={formData?.company_name}
-                onChange={handleChange}
+                      onChange={ handleChange }
+                      required
               />
                
               </div>
@@ -97,7 +99,8 @@ const Createjob = () => {
                 type="text"
                 name="job_description"
                 value={formData?.job_description}
-                onChange={handleChange}
+                      onChange={ handleChange }
+                      required
               />
             </div>
   
@@ -108,7 +111,8 @@ const Createjob = () => {
                   type="text"
                   name="job_type"
                   value={formData?.job_type}
-                  onChange={handleChange}
+                      onChange={ handleChange }
+                      required
               />
               
             </div>
@@ -121,7 +125,8 @@ const Createjob = () => {
                 placeholder="Required Skills"
                 name="required_skills"
                 value={formData?.required_skills}
-                onChange={handleChange}
+                      onChange={ handleChange }
+                      required
               />
                               
                 <ul id="tags">

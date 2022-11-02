@@ -13,11 +13,19 @@ import User from './Links/User';
 import Createjob from './Links/Createjob'
 import Navbar from './components/Navbar'
 import Admin from './Links/Admin';
+import AdminLogin from './components/admin/AdminLogin'
+import UsersData from './components/admin/UsersData';
+import UpdateUser from './components/admin/UpdateUser';
+import UsersProfiles from './components/admin/UsersProfiles'
 
 function App() {
   return (
     <>
+<<<<<<< HEAD
        <Navbar />
+=======
+      <Navbar/>
+>>>>>>> 7ce17bdc0be33ee990a8c0839b0fccc2662f7be4
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/view" element={<Profview />} />
@@ -30,11 +38,22 @@ function App() {
         <Route path="/create" element={<Profile />} />
         <Route path="/apply" element={<ApplyJob />} />
         <Route path="/post" element={<Createjob />} />
+<<<<<<< HEAD
         <Route path="/jobs" element={<Jobs/>}/>
         <Route path="/admin" element={<Admin/>} />
         {/* Hey Earnest */}
       </Routes>
     </> 
+=======
+        <Route path="/Jobs" element={<Jobs/>}/>
+        <Route path="/admin" element={ <Admin /> } />
+        <Route path="/adminlogin" element={ <AdminLogin /> } />
+        <Route path="/usersdata" element={ <UsersData /> } />
+        <Route path="/updateuser" element={ <UpdateUser /> } />
+        <Route path="/usersprofiles" element={<UsersProfiles/>} />
+      </Routes>
+    </>      
+>>>>>>> 7ce17bdc0be33ee990a8c0839b0fccc2662f7be4
   );
 }
 

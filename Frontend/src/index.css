@@ -32,11 +32,11 @@
 }
 .leftbar{
   flex: 1;
-  border-right: 2px solid black;
+  /* border-right: 1px solid black; */
 }
 .centerbar{
   flex: 2;
-  border-right: 1px solid black;
+  /* border-right: 1px solid black; */
 }
 .rightbar{flex: 1;}
 
@@ -88,4 +88,4 @@
 .companyname{
   text-align: center;
   margin-bottom: 20px;
-} 
+}

@@ -31,10 +31,10 @@ const Hero = () => {
           />
         </div>
                 <div className='flex '>
-                  <Link to="/admin">
+                  <Link to="/adminlogin">
                   <button className='bg-green-600 w-[200px] rounded-full font-medium my-6  py-3 text-black'>Find Talent</button>
                   </Link>
-                  <Link to="/User">
+                  <Link to="/signin">
                   <button className='bg-slate-200 w-[200px] rounded-full font-medium my-6 ml-2 py-3 text-black'>Find Job</button>
                   </Link>
                 </div>

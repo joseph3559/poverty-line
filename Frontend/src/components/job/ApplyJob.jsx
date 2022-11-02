@@ -62,11 +62,11 @@ const ApplyJob = () => {
                 </label>                
               </form>
               <div className='flex justify-center'>
-                <Link to="/Jobs">
-              <button onClick={handleSubmit} className='bg-green-600 w-[150px] rounded-full font-medium mt-8 ml-2 py-2 text-black'>Submit</button>
+              <Link to="/jobs">
+                <button onClick={handleSubmit} className='bg-green-600 w-[150px] rounded-full font-medium mt-8 ml-2 py-2 text-black'>Submit</button>
               </Link>
-              <Link to="/Jobs">
-              <button className='bg-slate-200 border-2 border-red-600 w-[150px] hover:text-red-600 rounded-full font-medium mt-8 ml-2 py-2 text-black'>Cancel</button>
+              <Link to="/jobs">
+                <button className='bg-slate-200 border-2 border-red-600 w-[150px] hover:text-red-600 rounded-full font-medium mt-8 ml-2 py-2 text-black'>Cancel</button>
               </Link>
               </div>
 

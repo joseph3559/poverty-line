@@ -153,25 +153,25 @@ export default function UserDashboard() {
         </div>
 
         <div className="grid gap-4 grid-cols-2 ">
-          <div className="w-full px-20 py-20 bg-white rounded-lg shadow transform motion-safe:hover:scale-105 text-center">
+          <div className="w-full px-20 py-20 bg-white rounded-lg shadow transform motion-safe:hover:scale-100 text-center">
             <div className="text-5xl font-medium text-black-500 truncate ">
               Active Jobs
             </div>
             <div className="mt-1 text-4xl font-semibold text-green-600">15</div>
           </div>
-          <div className="w-full px-20 py-20  bg-white rounded-lg shadow transform motion-safe:hover:scale-105 text-center">
+          <div className="w-full px-20 py-20  bg-white rounded-lg shadow transform motion-safe:hover:scale-100 text-center">
             <div className="text-5xl font-medium text-black-500 truncate ">
               Completed Jobs
             </div>
             <div className="mt-1 text-4xl font-semibold text-green-600">75</div>
           </div>
-          <div className="w-full px-20 py-20  bg-white rounded-lg shadow transform motion-safe:hover:scale-105 text-center">
+          <div className="w-full px-20 py-20  bg-white rounded-lg shadow transform motion-safe:hover:scale-100 text-center">
             <div className="text-5xl font-medium text-black-500 truncate">
               Canceled
             </div>
             <div className="mt-1 text-4xl font-semibold text-red-600">7</div>
           </div>
-          <div className="w-full  px-20 py-20  bg-white rounded-lg shadow transform motion-safe:hover:scale-105 text-center">
+          <div className="w-full  px-20 py-20  bg-white rounded-lg shadow transform motion-safe:hover:scale-100 text-center">
             <div className="text-5xl font-medium text-black-500 truncate">
               Unsuccessful
             </div>
