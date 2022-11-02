@@ -2,6 +2,7 @@ import React from 'react'
 import axios from '../../api/axios'
 import {useState, useEffect} from 'react'
 import {Box, Grid, Button, makeStyles} from '@material-ui/core';
+import Details from './Details'
 
 const skills = [""];
 
@@ -53,10 +54,10 @@ const JobCard = () => {
       jobs.map((job) => (
         <Box p={2} className={classes.wrapper}>
           <Grid container alignItems='center'>
-          <Grid item xs>
+          {/* <Grid item xs> */}
               <h5 class="text-2xl">{job.job_title}</h5>
             <p class="text-sm" className={ classes.companyName }>{job.company_name}</p>
-          </Grid>
+          {/* </Grid> */}
           <Grid item container xs>
             {skills.map((skill) =>( 
               <Grid key={ skill } className={ classes.skills } item>{job.required_skills }</Grid>
@@ -68,7 +69,7 @@ const JobCard = () => {
               </Grid>
               <Grid item>
                 <Box mt={2}>
-                  <Button variant="outlined" class="normal-case text-s border-4 border-black-40/100 text-black">More Details</Button>
+                  <Button variant="outlined" class="normal-case text-s border-4 border-black-40/100 text-black">{Details}</Button>
                 </Box>
               </Grid>
           </Grid>
