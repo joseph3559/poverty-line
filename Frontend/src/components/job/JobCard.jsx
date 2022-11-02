@@ -2,7 +2,7 @@ import React from 'react'
 import axios from '../../api/axios'
 import {useState, useEffect} from 'react'
 import {Box, Grid, Button, makeStyles} from '@material-ui/core';
-import Details from './Details'
+import Modal from './Modal';
 
 const skills = [""];
 
@@ -42,6 +42,7 @@ const skills = [""];
 const JobCard = () => {
   const classes = useStyles()
   const [jobs, setJobs ] = useState ([])
+  const [modalOpen, setModalOpen] = useState(false);
 
   useEffect(() => {
     axios.get('/jobs').then((response) => setJobs(response.data));
@@ -52,7 +53,7 @@ const JobCard = () => {
       <div style = {{backgroundColor: ""}}>
       {
             jobs.map((job) => (        
-              <Box p={2} className={classes.wrapper}>
+              <Box className={classes.wrapper}>
                 <Grid container alignItems='center'>
                 <Grid item xs>
                     <h5 class="text-2xl">{job.job_title}</h5>
@@ -68,12 +69,14 @@ const JobCard = () => {
                       <p variant="caption" class="text-sm">Before 12-12-2022 { job.deadline }| { job.job_type}</p>
                     </Grid>
                     <Grid item>
-                      <Box mt={2}>
-                        <Button variant="outlined" class="normal-case text-s border-4 border-black-40/100 text-black">More Details</Button>
+                      <Box mt={2} >
+                        <Button className='openModalBtn' onClick={()=> {
+                          setModalOpen(true); }} variant="outlined" class="normal-case text-s border-4 border-black-40/100 text-black">More Details</Button>
                       </Box>
                     </Grid>
                 </Grid>
                 </Grid>
+                {modalOpen && <Modal setOpenModal={setModalOpen}/>}
                 </Box>    
             )) }
         </div>

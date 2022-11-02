@@ -3,7 +3,7 @@ import Subscribe from '../components/Subscribe'
 // import Footer from '../components/Footer'
 import Header from '../components/job/Header'
 import LeftBar from '../components/job/LeftBar'
-import RightBar from '../components/job/RightBar'
+// import RightBar from '../components/job/RightBar'
 import CenterBar from '../components/job/CenterBar'
 
 const Jobs = () => {
@@ -14,7 +14,7 @@ const Jobs = () => {
           <div id='container'>
               <LeftBar/>
               <CenterBar/>
-              <RightBar/>
+              {/* <RightBar/> */}
           </div>
       </div>
       <Subscribe/>
