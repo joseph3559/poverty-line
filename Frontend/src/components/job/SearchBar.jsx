@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import CloseIcon from '@mui/icons-material/Close';
 import SearchIcon from '@mui/icons-material/Search';
+import './SearchBar.css';
 
 function SearchBar({ placeholder, data }) {
 
@@ -27,8 +28,8 @@ function SearchBar({ placeholder, data }) {
   };
 
   return (
-    <div className="search">
-      <div className="searchInputs">
+    <div className="search"  >
+      <div className="searchInputs" >
         <input type="text" placeholder={placeholder} 
         value={wordEntered}
         onChange={handleFilter}/>
