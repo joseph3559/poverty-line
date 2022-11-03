@@ -16,26 +16,24 @@
 .home{
   background-color: rgb(169, 169, 169, 0.2);
   height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 #container{
-  width: 100%;
-  height: 90%;
-  display: flex;
+  /* width: 100%; */
+  /* height: 90%; */
+  /* display: flex; */
 }
 .leftbar{
-  flex: 1;
+  /* flex: 1; */
   /* border-right: 2px solid black; */
 }
 .centerbar{
-  flex: 2;
+  /* flex: 2; */
   /* border-right: 1px solid black; */
 }
-.rightbar{
-  /* flex: 1; */
-}
+
 
 .sidebarlist{
   height: auto;

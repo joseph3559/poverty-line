@@ -1,13 +1,17 @@
  .modalBackground {
-    background-color: rgba(200, 200, 200);
-    display: flex;
-    justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(200, 200, 200);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
 
   .modalContainer {
-    height: 500px;
+    height: 700px;
     border-radius: 12px;
-    background-color: white;
+    /* background-color: white; */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     flex-direction: column;
@@ -16,6 +20,25 @@
   
   .modalContainer .title {
     text-align: center;
+  }
+
+  .jobtitle h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .companyname h2{
+    font-size: 20px;
+  }
+
+  .body{
+    border:2px solid grey ;
+    border-radius: 10px;
+  }
+
+  .body p{
+    font-size: 20px;
+    width: 750px;
   }
   
   .titleCloseBtn {

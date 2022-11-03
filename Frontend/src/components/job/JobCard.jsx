@@ -51,8 +51,9 @@ const JobCard = () => {
   return (
     <>
       <div style = {{backgroundColor: ""}}>
-      {
-            jobs.map((job) => (        
+      {modalOpen && <Modal setOpenModal={setModalOpen}/>}
+
+            {jobs.map((job) => (        
               <Box className={classes.wrapper}>
                 <Grid container alignItems='center'>
                 <Grid item xs>
@@ -72,13 +73,15 @@ const JobCard = () => {
                       <Box mt={2} >
                         <Button className='openModalBtn' onClick={()=> {
                           setModalOpen(true); }} variant="outlined" class="normal-case text-s border-4 border-black-40/100 text-black">More Details</Button>
+                         
                       </Box>
                     </Grid>
                 </Grid>
                 </Grid>
-                {modalOpen && <Modal setOpenModal={setModalOpen}/>}
-                </Box>    
-            )) }
+                
+                </Box>  
+            ))}
+            
         </div>
     </>    
   )
